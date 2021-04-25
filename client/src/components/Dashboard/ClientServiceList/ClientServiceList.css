@@ -1,0 +1,10 @@
+.client-services-area .card {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+  }
+  
+  .client-status-btn:hover {
+    cursor: context-menu !important;
+  }

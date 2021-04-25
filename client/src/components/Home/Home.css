@@ -1,0 +1,23 @@
+.header-container::after {
+    height: 780px;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    right: 0;
+    /* background-color: #FBD062; */
+    z-index: -50;
+    background-image: linear-gradient(175deg, #7AB259 70%, #fff calc(70% + 2px));
+  }
+  
+  @media (max-width: 768px) {
+    .header-container::after {
+      height: 1100px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .header-container::after {
+      height: 1000px;
+    }
+  }

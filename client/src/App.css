@@ -1,0 +1,29 @@
+.btn-brand {
+  background-color: #111430 !important;
+  color: #fff !important;
+  border-color: transparent;
+  font-family: 'Roboto', sans-serif;
+}
+
+.file-upload input[type='file'] {
+  display: none;
+}
+
+.btn-success {
+  background-color: #009444 !important;
+}
+
+.btn-outline-success {
+  background-color: #deffed !important;
+}
+
+.btn-outline-success:hover {
+  background-color: #009444 !important;
+}
+
+
+
+.error {
+  color: salmon;
+  margin-left: 10px;
+}

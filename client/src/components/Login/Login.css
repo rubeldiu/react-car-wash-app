@@ -1,0 +1,88 @@
+  
+.place-title {
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  .login-form {
+    color: #333;
+    max-width: 600px;
+    min-width: 375px;
+    max-height: 700px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+  }
+  
+  .login-form .form-control {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #c5c5c5;
+  }
+  
+  .login-form .form-control:focus {
+    box-shadow: none;
+  }
+  
+  .login-form .social-login {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form .social-login img {
+    height: 25px;
+    width: 25px;
+    text-align: left;
+    margin-right: 2px;
+  }
+  
+  .login-form .social-login .btn {
+    /* display: flex; */
+    width: 100%;
+    border-radius: 57px !important;
+    border: 1px solid #c7c7c7;
+    padding: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .login-form .social-login .btn:focus,
+  .btn:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+  
+  /* or line */
+  .login-form .horizontal-or {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .login-form .horizontal-or:before,
+  .login-form .horizontal-or:after {
+    content: '';
+    flex: 1 1;
+    border-bottom: 1px solid #aaa;
+    margin: auto;
+  }
+  
+  .login-form .horizontal-or:before {
+    margin-right: 10px;
+  }
+  
+  .login-form .horizontal-or:after {
+    margin-left: 10px;
+  }
+  
+  .notify {
+    margin: 0 auto;
+    color: red;
+  }
+  
+  .error {
+    color: salmon;
+    margin-left: 10px;
+  }

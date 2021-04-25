@@ -1,0 +1,46 @@
+#make-admin-form{
+    width: 1044px;
+    height: 305px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 37px;
+    margin-left: 37px;
+    margin-right: 60px;
+    padding-top: 28px;
+    padding-left: 33px;
+}
+#make-admin-form input{
+    width: 450px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 0.666667px solid #C9C9C9;
+    box-sizing: border-box;
+    border-radius: 3.33333px
+}
+#make-admin-btn{
+margin-top: 31px;
+width: 108px;
+height: 40px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+background: #009444;
+border:none;
+margin-left: -300px;
+}
+
+#make-admin-div{
+    background: #F4F7FC;
+}
+
+#make-admin-form label{
+    height: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232323;
+}
