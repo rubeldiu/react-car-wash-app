@@ -37,6 +37,6 @@ Note: Only admin user have ability to view admin dashboard.
 - nodemon
 
 <h2>Project screenshot</h2>
-<img src="./src/assets/images/screen1.png" alt="">
+<img src="./images/screen1.png" alt="">
 <br/>
-<img src="./src/assets/images/screen2.png" alt="">
+<img src="./images/screen2.png" alt="">
